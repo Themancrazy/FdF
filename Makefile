@@ -6,7 +6,7 @@
 #    By: anjansse <anjansse@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/28 21:57:22 by anjansse          #+#    #+#              #
-#    Updated: 2019/08/18 12:41:33 by anjansse         ###   ########.fr        #
+#    Updated: 2019/10/28 16:53:48 by anjansse         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,7 @@ MINILIBX	=	-L Minilibx/minilibx_macos -lmlx -framework OpenGL -framework AppKit
 
 DEBUG		=	-g -fsanitize=undefined -fsanitize=address
 
-CFLAGS		=	-Wall -Wextra -Werror $(MINILIBX)
+CFLAGS		=	-Wall -Wextra -Werror $(MINILIBX) -O2
 
 LLIB		=	libft.a
 
